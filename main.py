@@ -17,7 +17,9 @@ for i in d:
 
 
 #3 --
-print('3 -- ', d[::2]. )
+print('3 -- ', d[::2])
+
+
 
 #4
 print('4 -- ',sum(d)/len(d))
@@ -26,3 +28,8 @@ print('4 -- ',sum(d)/len(d))
 for i in d:
     if len(i) > 5:
         print('5 -- ', i)
+
+
+
+
+

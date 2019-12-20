@@ -8,7 +8,7 @@ for i in d:
         n+=1
 print('1 -- ', n)
 
-
+                         
 
 # -- 2
 for i in d:

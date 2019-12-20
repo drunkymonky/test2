@@ -1,6 +1,21 @@
 
 
 
+# !!!!!
+result = [x+y for x in range(10) for y in range(10)]
+print(result)
+
+# !!!!!
+
+a = 12
+b = 23
+
+max = b if b > a else a # тернарный ОПЕРАТОР
+
+
+
+
+
 a = 10
 b = 20
 v = [x ** 2 for x in range(a,b+1)]
@@ -53,6 +68,8 @@ for r in data:
 n = 5
 v = [[x*y for y in range(n)] for x in range(n)]
 print(v)
+
+
 
 
 

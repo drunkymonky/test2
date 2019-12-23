@@ -18,7 +18,7 @@ while n <=10:
     print(eval(str(v1)+str(v2)+str(v3)) )
     n +=1
 """
-
+"""
 r = []
 print(r)
 
@@ -35,6 +35,16 @@ if v[0] == "append":
     v.sort(reverse=True)
     print()
     print(v)
+"""
+
+v = [123, 456]
+result = ""
+
+v = [str(x) for x in v]
+for x in v:
+    result = '+'.join(list(x))
+    print(eval(result))
+    
 
 
 

@@ -36,15 +36,26 @@ if v[0] == "append":
     print()
     print(v)
 """
-
+"""
+#1
 v = [123, 456]
 result = ""
 
 v = [str(x) for x in v]
 for x in v:
     result = '+'.join(list(x))
-    print(eval(result))
-    
+    #print(eval(result))
+
+#2
+n= [12354,45454]
+for i in n:
+    print(sum([1 if i % x == 0 else 0 for x in i]))
+"""
+def func_name(num):
+    print(num)
+    return num
+
+
 
 
 

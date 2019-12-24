@@ -88,6 +88,7 @@ f.append([0]*7)
 for i in range(1,n+1):
     f[i].append(0)
     f[i].insert(0,0)
+    
 
 x+=1
 y+=1

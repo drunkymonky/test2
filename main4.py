@@ -51,6 +51,8 @@ n= [12354,45454]
 for i in n:
     print(sum([1 if i % x == 0 else 0 for x in i]))
 """
+
+
 def func_name(num):
     print(num)
     return num

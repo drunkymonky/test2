@@ -39,6 +39,9 @@ while True:
         else:
             print(sum(weather[inp[1]]) / len(weather[inp[1]]))
     
+import time
+
+
 
 
 

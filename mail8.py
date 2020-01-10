@@ -9,7 +9,7 @@ class Cat():
         self.age = age
 
     def Meow(self):
-        return self.name = "meowww..."
+        return self.name
 
     def is_healthy(self):
         if self.age < self.weight:

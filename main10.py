@@ -11,13 +11,13 @@ class Fraction:
         return Fraction(a * d + b * c, b * d)
 
     def minus(self, o):
-        pass
+        return Fraction(self.d1 * o.d1 - self.d2 * o.d2)
 
     def mul(self, o):
-        pass
+        return Fraction(self.d1 * o.d1, self.d2 * o.d2)
 
     def div(self, o):
-        pass
+        return Fraction(self.d1 * o.d1, self.d2 * o.d2)
 
     def to_float(self, o):
         pass

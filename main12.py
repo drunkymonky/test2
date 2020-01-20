@@ -15,22 +15,18 @@ pattern re.compile('^\d{4,10}$') # строка сотоящая от 4 до 10 
 pattern re.compile('^\d{4,}$') # строка сотоящая от 4 цифр и до бесконечности
 pattern re.compile('^\d{,}$') # строка сотоящая из цифр
 pattern re.compile('(.*)') # строка сотоящая из цифр
-print(re.search(pattern, 'dsf3424'))
+print(re.search(pattern, 'dsf3424') is not None)
 
 # 1
-
 pattern = re.compile('^\d\d\w\d\d\w\d{4}$')
 
 # 2
-
 pattern = re.compile('\+7-?\d{3}-?\d{3}-?\d{2}-?\d{2}')
 
 # 3
-
 pattern = re.compile('[24680]$')
 
 # 4
-
 pattern = re.compile('')
 
 

@@ -1,3 +1,4 @@
+import abc
 
 class Expression():
     def __init__(self, left = None, right = None):
@@ -6,6 +7,9 @@ class Expression():
 
     def calc(self):
         return self.value
+    
+
+
 
 class Const(Expression):
     def __init__(self, value):
@@ -37,6 +41,7 @@ class M(Expression):
     def __init__(self, left = None, right = None):
         super().__init__(left, right)
 
+    @abc.abstractmethod
     def calc(self):
         return self.left.calc() / self.right.calc()
 

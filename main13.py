@@ -7,8 +7,6 @@ class Expression():
 
     def calc(self):
         return self.value
-    
-
 
 
 class Const(Expression):

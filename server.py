@@ -9,6 +9,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
     server.listen()
 
     conn, addr = server.accept()
+
+
+
     while True:
         print(conn)
         print(addr)
